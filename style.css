@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar{
+    background: #030303;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+}
+.sidebar-nav{
+    background: #101010;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar-nav .logo{
+    width: 120px;
+}
+
+.sidebar-nav .logo img{
+    width: 100%;
+}
+
+.sidebar-nav ul{
+    list-style: none;
+}
+
+.sidebar-nav ul li{
+    padding: 10px 20px;
+}
+
+.sidebar-nav ul li a{
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.sidebar-nav ul li a i{
+ font-size: 20px;
+ margin-right: 10px;
+}
+.library::after{
+    content: '+';
+    float: right;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+.create-playlisst{
+    background: #302f2f;
+    padding: 30px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+.sidebar-scroll{
+    height: 120px;
+    overflow-y: auto;
+
+}
+.sidebar-scroll::-webkit-scrollbar{
+    background: transparent;
+    
+}
+.sidebar-scroll::-webkit-scrollbar-thumb{
+    background: transparent;
+    width: 10px;
+    
+}
+.sidebar-scroll:hover::-webkit-scrollbar-thumb{
+    background: #5c5b5b;
+    width: 5px;
+    border-radius: 5px;
+    
+}
+.create-playlisst p{
+    color: #fff;
+    font-size: 12px;
+    margin: 12px 0;
+}
+.create-playlisst button{
+    padding: 8px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
