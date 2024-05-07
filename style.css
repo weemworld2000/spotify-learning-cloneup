@@ -23,6 +23,7 @@ body{
     margin-bottom: 20px;
 }
 
+
 .sidebar-nav .logo{
     width: 120px;
 }
@@ -35,8 +36,13 @@ body{
     list-style: none;
 }
 
+
 .sidebar-nav ul li{
     padding: 10px 20px;
+}
+
+.sidebar-nav ul li a:hover{
+    color: #fff;
 }
 
 .sidebar-nav ul li a{
@@ -44,12 +50,13 @@ body{
     color: #b3b3b3;
     font-size: 16px;
     font-weight: 600;
-
 }
+
 .sidebar-nav ul li a i{
  font-size: 20px;
  margin-right: 10px;
 }
+
 .library::after{
     content: '+';
     float: right;
@@ -70,6 +77,7 @@ body{
     overflow-y: auto;
 
 }
+
 .sidebar-scroll::-webkit-scrollbar{
     background: transparent;
     
@@ -85,6 +93,12 @@ body{
     border-radius: 5px;
     
 }
+
+.create-playlisst h4{
+    color: #fff;
+
+}
+
 .create-playlisst p{
     color: #fff;
     font-size: 12px;
@@ -97,4 +111,48 @@ body{
     border-radius: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+.sidebar-scroll button:hover{
+    padding: 10px 22px;
+    border: 1px solid #fff;
+
+}
+
+.privacy ul li a{
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size:11px;
+    font-weight: 600;
+    margin: 0 4.5px;
+}
+
+.privacy ul li a:hover{
+    text-decoration: underline;
+    color: #bebebc;
+}
+
+.privacy ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.privacyul ul li{
+    padding: 0 10px;
+    padding-bottom: 10px;
+
+}
+.eng-btn button{
+    padding: 6px 18px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    border: 1px solid #818080;
+    border-radius: 20px;
+    font-weight: 800;
+    margin: 20px 0;
+
+}
+.eng-btn button:hover{
+    padding: 8px 20px;
+    border: 1px solid #fff;
 }
